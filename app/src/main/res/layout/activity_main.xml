@@ -63,10 +63,42 @@
 
         </LinearLayout>
 
+        <!-- TOMBOL SORT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnSortAZ"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                android:layout_weight="1"
+                android:text="Urutkan A-Z"
+                android:textSize="11sp"
+                android:textColor="#BB0077"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/btnTerlaris"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                android:layout_weight="1"
+                android:text="Produk Terlaris"
+                android:textSize="11sp"
+                android:textColor="#BB0077"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginStart="4dp"/>
+
+        </LinearLayout>
+
     </LinearLayout>
 
     <!-- LABEL -->
     <TextView
+        android:id="@+id/tvLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Produk Tersedia"
@@ -86,227 +118,14 @@
         android:scrollbars="none">
 
         <LinearLayout
+            android:id="@+id/containerProduk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <!-- BARIS 1 -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="8dp">
-
-                <!-- Kartu 1: Lipstik -->
-                <LinearLayout
-                    android:id="@+id/cardLipstik"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:background="@drawable/bg_card"
-                    android:layout_margin="4dp"
-                    android:clickable="true"
-                    android:focusable="true">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:src="@drawable/lipstik"
-                        android:scaleType="centerCrop"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="MAC"
-                            android:textColor="#BB0077"
-                            android:textSize="10sp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Lipstick"
-                            android:textColor="#333333"
-                            android:textSize="13sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="2dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Rp 415.000"
-                            android:textColor="#D48FA0"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="4dp"/>
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <!-- Kartu 2: Eyeshadow -->
-                <LinearLayout
-                    android:id="@+id/cardEyeshadow"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:background="@drawable/bg_card"
-                    android:layout_margin="4dp"
-                    android:clickable="true"
-                    android:focusable="true">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:src="@drawable/eyeshadow"
-                        android:scaleType="centerCrop"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Maybelline"
-                            android:textColor="#BB0077"
-                            android:textSize="10sp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Eyeshadow Palette"
-                            android:textColor="#333333"
-                            android:textSize="13sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="2dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Rp 189.000"
-                            android:textColor="#D48FA0"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="4dp"/>
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <!-- BARIS 2 -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp"
-                android:paddingBottom="16dp">
-
-                <!-- Kartu 3: Foundation -->
-                <LinearLayout
-                    android:id="@+id/cardFoundation"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:background="@drawable/bg_card"
-                    android:layout_margin="4dp"
-                    android:clickable="true"
-                    android:focusable="true">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:src="@drawable/foundition"
-                        android:scaleType="centerCrop"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="NYX"
-                            android:textColor="#BB0077"
-                            android:textSize="10sp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Foundation Fit Me"
-                            android:textColor="#333333"
-                            android:textSize="13sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="2dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Rp 125.000"
-                            android:textColor="#D48FA0"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="4dp"/>
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <!-- Kartu 4: Blush On -->
-                <LinearLayout
-                    android:id="@+id/cardBlushOn"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:background="@drawable/bg_card"
-                    android:layout_margin="4dp"
-                    android:clickable="true"
-                    android:focusable="true">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:src="@drawable/blush"
-                        android:scaleType="centerCrop"/>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Wardah"
-                            android:textColor="#BB0077"
-                            android:textSize="10sp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Blush On Matte"
-                            android:textColor="#333333"
-                            android:textSize="13sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="2dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Rp 65.000"
-                            android:textColor="#D48FA0"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:layout_marginTop="4dp"/>
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
+            android:orientation="vertical"
+            android:padding="8dp">
 
         </LinearLayout>
+
     </ScrollView>
 
     <!-- BOTTOM NAVIGATION -->
