@@ -1,14 +1,10 @@
-# Katalog Make Up 💄
+# Katalog Make Up 
 
 ## 1. Identitas Mahasiswa
+ **Nama Lengkap** :  Salsabila Nur Shafa 
+ **NIM** : 42430040 
+ **Mata Kuliah** : Pemrograman Seluler 
 
-| Keterangan | Detail |
-|---|---|
-| **Nama Lengkap** | Salsabila Nur Shafa |
-| **NIM** | 42430040 |
-| **Mata Kuliah** | Pemrograman Seluler |
-
----
 
 ## 2. Topik Aplikasi
 
@@ -16,7 +12,6 @@
 
 Aplikasi Android yang menampilkan katalog produk make up wanita. Pengguna dapat melihat daftar produk, mencari produk berdasarkan nama, mengurutkan produk secara alfabetis, serta melihat detail lengkap setiap produk.
 
----
 
 ## 3. Screenshot Aplikasi
 
@@ -30,7 +25,6 @@ Aplikasi Android yang menampilkan katalog produk make up wanita. Pengguna dapat 
 
 ![Landscape](screenshot/landscape.jpg)
 
----
 
 ## 4. Screenshot Hasil Pencarian dan Pengurutan Data
 
@@ -44,7 +38,6 @@ Aplikasi Android yang menampilkan katalog produk make up wanita. Pengguna dapat 
 
 ![Pengurutan](screenshot/pengurutan.jpg)
 
----
 
 ## 5. Screenshot Logcat
 
