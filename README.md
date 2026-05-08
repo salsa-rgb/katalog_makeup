@@ -1,70 +1,73 @@
-# Katalog Make Up 
-
-## 1. Identitas Mahasiswa
- **Nama Lengkap** :  Salsabila Nur Shafa 
- **NIM** : 42430040 
- **Mata Kuliah** : Pemrograman Seluler 
-
-
-## 2. Topik Aplikasi
-
-**Katalog Make Up Wanita**
-
-Aplikasi Android yang menampilkan katalog produk make up wanita. Pengguna dapat melihat daftar produk, mencari produk berdasarkan nama, mengurutkan produk secara alfabetis, serta melihat detail lengkap setiap produk.
-
-
-## 3. Screenshot Aplikasi
-
-### Tampilan Portrait
-> *(Tambahkan screenshot portrait di sini)*
-
-![Portrait](screenshot/portrait.jpg)
-
-### Tampilan Landscape
-> *(Tambahkan screenshot landscape di sini)*
-
-![Landscape](screenshot/landscape.jpg)
-
-
-## 4. Screenshot Hasil Pencarian dan Pengurutan Data
-
-### Hasil Pencarian (Linear Search)
-> *(Tambahkan screenshot hasil pencarian di sini)*
-
-![Pencarian](screenshot/pencarian.jpg)
-
-### Hasil Pengurutan A-Z (Bubble Sort)
-> *(Tambahkan screenshot hasil pengurutan di sini)*
-
-![Pengurutan](screenshot/pengurutan.jpg)
-
-
-## 5. Screenshot Logcat
-
-### Jendela Logcat dengan NIM 42430040
-> *(Tambahkan screenshot logcat yang menampilkan NIM 42430040 di sini)*
-
-![Logcat](screenshot/logcat.jpg)
+# UAS Pemrograman Seluler - Aplikasi Katalog Make Up Wanita
 
 ---
 
-## 6. Fitur Aplikasi
+## Identitas Mahasiswa
 
-- **Katalog Produk** — Menampilkan produk make up dalam grid 2 kolom
-- **Detail Produk** — Menampilkan informasi lengkap saat kartu diklik (Intent)
-- **Pencarian (Linear Search)** — Mencari produk berdasarkan nama
-- **Urutkan A-Z (Bubble Sort)** — Mengurutkan produk dari A sampai Z
-- **Produk Terlaris** — Menampilkan produk berdasarkan urutan terlaris
-- **Validasi Input** — Memastikan kolom pencarian tidak kosong
-- **Error Handling (Try-Catch)** — Menangani error di setiap aksi
-- **Logcat** — Merekam aktivitas aplikasi dengan Tag NIM 42430040
+- **Nama Lengkap:** Salsabila Nur Shafa
+- **NIM:** 42430040
+- **Program Studi:** Teknologi Informasi
 
 ---
 
-## 7. Produk yang Tersedia
+## Deskripsi Aplikasi
+
+Aplikasi ini dibangun untuk memenuhi Ujian Akhir Semester (UAS) mata kuliah Pemrograman Seluler. Aplikasi ini mendemonstrasikan penguasaan materi per minggu, meliputi:
+
+1. **Modul 2 & 3: Desain UI/UX** dan penerapan Layout Responsif yang beradaptasi saat Portrait dan Landscape.
+
+2. **Modul 4 & 5: Navigasi multi-layar dan Validasi Input** menggunakan `Intent` untuk mengirim data produk ke halaman detail, serta validasi kolom pencarian agar tidak kosong.
+
+3. **Modul 6: Implementasi Array dan Pencarian Data** menggunakan:
+   - Array untuk menyimpan data produk make up
+   - Algoritma **Linear Search** untuk mencari produk berdasarkan nama
+
+4. **Modul 7: Pengurutan Data** menggunakan algoritma **Bubble Sort** untuk menampilkan produk secara A-Z dan fitur Produk Terlaris.
+
+5. **Modul 9: Error Handling** menggunakan `try-catch` untuk menangani error dan **Logcat** dengan NIM `42430040` sebagai Tag untuk merekam aktivitas aplikasi.
+
+---
+
+## Screenshot Aplikasi
+
+### 1. Halaman Utama (Responsif)
+
+| Mode Portrait | Mode Landscape |
+|:---:|:---:|
+| ![Portrait](screenshot/portrait.jpg) | ![Landscape](screenshot/landscape.jpg) |
+
+---
+
+### 2. Halaman Detail Produk
+
+| Mode Portrait | Mode Landscape |
+|:---:|:---:|
+| ![Detail Portrait](screenshot/detail_portrait.jpg) | ![Detail Landscape](screenshot/detail_landscape.jpg) |
+
+---
+
+### 3. Screenshot Hasil Pencarian dan Pengurutan Data
+
+| Hasil Pencarian (Linear Search) | Hasil Pengurutan A-Z (Bubble Sort) |
+|:---:|:---:|
+| ![Pencarian](screenshot/pencarian.jpg) | ![Pengurutan](screenshot/pengurutan.jpg) |
+
+---
+
+### 4. Screenshot Jendela Logcat
+
+> Logcat menampilkan aktivitas aplikasi dengan Tag NIM **42430040**
+
+| Logcat |
+|:---:|
+| ![Logcat](screenshot/logcat.jpg) |
+
+---
+
+## Produk yang Tersedia
 
 | No | Nama Produk | Brand | Harga | Kategori |
-|---|---|---|---|---|
+|:---:|---|---|---|---|
 | 1 | Lipstick Ruby Woo | MAC | Rp 415.000 | Bibir |
 | 2 | Eyeshadow Palette | Maybelline | Rp 189.000 | Mata |
 | 3 | Foundation Fit Me | NYX | Rp 125.000 | Wajah |
@@ -72,10 +75,10 @@ Aplikasi Android yang menampilkan katalog produk make up wanita. Pengguna dapat 
 
 ---
 
-## 8. Milestone Pengerjaan
+## Milestone Pengerjaan
 
 | Minggu | Tugas | Status |
-|---|---|---|
+|:---:|---|:---:|
 | Minggu 1 | UI Layout Portrait & Landscape | ✅ Selesai |
 | Minggu 2 | Navigasi Intent & Validasi Input | ✅ Selesai |
 | Minggu 3 | Array, Linear Search, Bubble Sort | ✅ Selesai |
